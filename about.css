@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.about-wrapper{
+    display: inline;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.about-title{
+    text-align: center;    
+}
+
+.about-title h2{
+    color: rgb(4, 4, 38)
+    font-size 45px;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+     text-decoration:normal
+}
+
+.calculator link{
+    color:rgb(4, 4,38 );
+    font-size: large;
+    margin: 2rem;
+    text-align: right;
+}
+ .about-image{
+     border-radius: 50%;
+    vertical-align: middle;
+    width: 50px;
+ }

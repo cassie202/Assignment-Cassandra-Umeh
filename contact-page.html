@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stlye.css">
+</head>
+<body>
+    <header class ="main-header"> 
+        <h1>My Website</h1>
+        <div class="links"><a href="./login-page.html">Login</a>
+            <a href="register-page.html">Register</a> 
+            <a href="contact-page.html">Contact Us</a>
+            <a href="index.html">About</a> 
+            <a href="./calculator.html">Calculator</a> 
+        </div>
+    </header >
+        <section> 
+                <div class="my-form">
+                <form action="my-form-page" method="post">
+                <div class="contact-p">
+                    <P>Contact Us</P>
+                </div>
+                      <div class="form-group">
+                            <label for="name">Name </label>
+                            <input type="text" name="userName" placeholder = "Enter sur-name first">   
+                    </div>
+                      <br>
+                      <div class="form-group"> 
+                            <label for="email">E-mail </label>
+                            <input type="email" name="email" placeholder = "Enter Email"> 
+                </div>
+                <br>
+                <div class="form group">
+                            <label>Message</label>
+                            <textarea name="message"></textarea>
+                </div>
+                  <div class="form-group">
+                    <label required>Priority</label>
+                    <select name="priority">
+                    <option value="high">High</option>
+                    <option value="middle">middle</option>
+                    <option value="low">low</option> </select>
+                              </div>
+                                             
+                <br>
+                <br> 
+                <div class="form-group">
+               <input type ="submit" name="submit"
+                    value="Submit">
+                </div> 
+            </form>
+            </div>
+        </section>
+    </body>
+    <footer id="main-footer">
+        <p>copyright &copy; 2022, My Website</p>
+    </footer>
+</html>

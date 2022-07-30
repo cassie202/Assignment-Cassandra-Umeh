@@ -1,0 +1,11 @@
+.flexbox-container
+{
+    background-color: antiquewhite;
+    display: inline;
+    text-align: right;
+}
+.cal-heading
+{
+    font-size: larger;
+    text-align: right;
+}
